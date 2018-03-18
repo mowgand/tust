@@ -1,0 +1,122 @@
+/* CSS Document */
+/* ------------------------------map stuff--------------------- */
+body {
+	width: 100%;
+	margin: 0;
+	padding: 50;
+	/*
+	background-image: url('bg1.jpg');
+	background-repeat:repeat;
+	*/
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2a771f+0,fcbf46+23,d8923c+46,348c27+49,e8be7f+63,b29e39+80,388e31+100 */
+/*background: #2a771f; 
+background: -moz-linear-gradient(top,  #2a771f 0%, #fcbf46 23%, #d8923c 46%, #348c27 49%, #e8be7f 63%, #b29e39 80%, #388e31 100%); 
+background: -webkit-linear-gradient(top,  #2a771f 0%,#fcbf46 23%,#d8923c 46%,#348c27 49%,#e8be7f 63%,#b29e39 80%,#388e31 100%); 
+background: linear-gradient(to bottom,  #2a771f 0%,#fcbf46 23%,#d8923c 46%,#348c27 49%,#e8be7f 63%,#b29e39 80%,#388e31 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a771f', endColorstr='#388e31',GradientType=0 ); 
+*/
+	
+}
+#map {
+height: 100%;
+width: 100%;
+position:fixed;
+top: 0px;
+background-color: black;
+}
+
+#main {
+	overflow: hidden;
+	padding-bottom: 5px; /* must be same height as the footer */
+	background: black;
+
+} 
+.slider {
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	margin-top: -100px; /* negative value of footer height */
+	height: 25%;
+	width: 25%;
+	clear:both;
+	margin-bottom: 5px;
+	background-color: pink;
+}
+
+/* ------------------------------pics stuff--------------------- */
+.daywrap {
+	clear: both;
+	width: 100%;
+	margin:0 auto;
+	/*background: blue;*/
+	/*border: 3px solid red;*/
+	overflow: hidden;
+
+}
+.left_col {
+	
+   float:left;
+   width:50%;
+}
+.right_col {
+	
+	float:right;
+	width:50%;
+}
+
+.text {
+	background-color: rgba(7, 7, 7, 0.75);
+	/*background-color: rgba(221, 151, 37, 0.8);*/
+	/*color: #172c4f;*/
+	color: white;
+	font-family: Tw Cen MT;
+	width: 99%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	overflow: auto;
+}
+.vid {
+	width: 99%;
+	height: auto;
+}
+.media .vid {
+    display: block;
+    margin-left: 0.5%;
+	margin-right: 0.3%;
+
+}
+.media {
+    /*border: 1px solid white;*/
+    display: inline-block;
+    position: relative;
+}
+.video-overlay {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    margin: 10px;
+    padding: 5px 5px;
+    font-size: 20px;
+    font-family: Helvetica;
+    color: #FFF;
+    background-color: rgba(50, 50, 50, 0.3);
+}
+img {
+	/*max-width: 98%;
+	max-height: 98%;*/
+	width: 99%;
+	display: block;
+	/*margin-left: auto;
+    margin-right: auto;*/
+	margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+#end{
+width: 100%;
+margin: 0 auto;
+}
+#end2{
+clear: both;
+margin: auto;
+}
